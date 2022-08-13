@@ -1,0 +1,293 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Poppins;
+}
+header .header{
+  margin: 0 auto;
+  margin: 30px 0px;
+}
+header .header .header_info{
+  display: flex;
+  flex-direction: column;
+}
+header .header .header_info img{
+  width: 120px;
+  border-radius: 10px;
+  margin: 0 auto;
+  transition: all 0.3s;
+}
+header .header .header_info img:hover{
+transform: scale(1.2);
+}
+header .header .header_info .name{
+text-align: center;
+font-size: 20px;
+color: #2C3E50;
+font-weight: 700;
+margin: 10px 0px 2px 0px;
+}
+header .header .header_info .location{
+text-align: center;
+font-size: 14px;
+color: #95A5A6;
+}
+header .header .status_info .number_info{
+display: flex;
+justify-content: center;
+margin: 20px;
+
+}
+header .header .status_info .number_info .status{
+text-align: center;
+margin: 0px 20px;
+width: 120px;
+height: 60px;
+background-color:#E5E7E9;
+border-radius: 5px;
+padding: 5px 10px;
+}
+header .header .status_info .number_info .status .number{
+font-size: 18px;
+color: #000;
+font-weight: 500;
+}
+header .header .status_info .number_info .status .text{
+font-size: 15px;
+opacity: 0.5;
+font-weight: 300;
+}
+
+main .gallery {
+  display: flex;
+  flex-direction: column;
+  margin: 40px 0;
+}
+
+main .gallery .image {
+  margin: auto;
+  display: grid;
+  grid-gap: 20px;
+}
+
+main .gallery .image .img1 {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  grid-column: 1 / 3;
+  grid-row: 1;
+  transition: all 0.3s;
+  opacity: 0.7;
+}
+
+main .gallery .image .img2 {
+  width: 600px;
+  height: 300px;
+  border-radius: 10px;
+  grid-column: 2 /span 3;
+  grid-row: 1;
+  transition: all 0.3s;
+  opacity: 0.7;
+}
+
+main .gallery .image .img3 {
+  width: 620px;
+  height: 300px;
+  border-radius: 10px;
+  grid-column: 1 / span 2;
+  grid-row: 2;
+  transition: all 0.3s;
+  opacity: 0.7;
+}
+
+main .gallery .image .img4 {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  grid-column: 1;
+  grid-row: 3;
+  transition: all 0.3s;
+  opacity: 0.7;
+}
+
+main .gallery .image .img5 {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  grid-column: 2;
+  grid-row: 3;
+  transition: all 0.3s;
+  opacity: 0.7;
+}
+
+main .gallery .image .img6 {
+  border-radius: 10px;
+  width: 280px;
+  height: 620px;
+  grid-column: 3;
+  grid-row: 2 / span 3;
+  transition: all 0.3s;
+  opacity: 0.7;
+}
+  main .gallery .image .img1:hover{
+     transform: scale(1.2);
+     opacity: 1;
+}
+  main .gallery .image .img2:hover{
+     transform: scale(1.2);
+     opacity: 1;
+}
+  main .gallery .image .img3:hover{
+     transform: scale(1.2);
+     opacity: 1;
+}
+  main .gallery .image .img4:hover{
+     transform: scale(1.2);
+     opacity: 1;
+}
+  main .gallery .image .img5:hover{
+     transform: scale(1.2);
+     opacity: 1;
+}
+  main .gallery .image .img6:hover{
+     transform: scale(1.2);
+     opacity: 1;
+}
+.footer {
+  text-align: center;
+}
+
+.footer span{
+  display: block;
+  margin-top: 100px;
+  font-style: normal;
+  font-weight: 500;
+  color: #BDBDBD;
+  padding-bottom: 24px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+}
+  @media screen and (max-width: 1024px)  {
+  header .header .header_info img{
+  width: 100px;
+}
+  header .header .header_info .name{
+  font-size: 16px;
+}
+  header .header .header_info .location{
+  font-size: 14px;
+}
+  header .header .status_info .number_info .status{
+  margin: 0px 10px;
+  width: 70px;
+  height: 50px;
+}
+  header .header .status_info .number_info .status .number{
+  font-size: 16px;
+}
+  header .header .status_info .number_info .status .text{
+  font-size: 12px;
+}
+  main .gallery {
+  margin: 30px 0;
+}
+
+main .gallery .image {
+  grid-gap: 15px;
+}
+
+main .gallery .image .img1 {
+  width: 160px;
+  height: 200px;
+}
+
+main .gallery .image .img2 {
+  width: 300px;
+  height: 200px;
+}
+
+main .gallery .image .img3 {
+  width: 335px;
+  height: 200px;
+}
+
+main .gallery .image .img4 {
+  width: 160px;
+  height: 200px;
+}
+
+main .gallery .image .img5 {
+  width: 160px;
+  height: 200px;
+}
+
+main .gallery .image .img6 {
+  width: 125px;
+  height: 415px;
+}
+}
+@media screen and (max-width: 768px)  {
+  header .header .header_info img{
+  width: 80px;
+}
+  header .header .header_info .name{
+  font-size: 14px;
+}
+  header .header .header_info .location{
+  font-size: 10px;
+}
+  header .header .status_info .number_info .status{
+  margin: 0px 10px;
+  width: 50px;
+  height: 40px;
+}
+  header .header .status_info .number_info .status .number{
+  font-size: 14px;
+}
+  header .header .status_info .number_info .status .text{
+  font-size: 10px;
+}
+  main .gallery {
+  margin: 20px 0;
+}
+
+main .gallery .image {
+  grid-gap: 10px;
+}
+
+main .gallery .image .img1 {
+  width: 100px;
+  height: 100px;
+}
+
+main .gallery .image .img2 {
+  width: 200px;
+  height: 100px;
+}
+
+main .gallery .image .img3 {
+  width: 220px;
+  height: 100px;
+}
+
+main .gallery .image .img4 {
+  width: 100px;
+  height: 100px;
+}
+
+main .gallery .image .img5 {
+  width: 100px;
+  height: 100px;
+}
+
+main .gallery .image .img6 {
+  width: 80px;
+  height: 210px;
+}
+.footer span{
+  font-size: 10px;
+}
+}
